@@ -1,7 +1,9 @@
 // Back End Logic //
 
+
 function pingPong(userInput) {
   var solution = [];
+
   for (var index = 1; index <= userInput; index += 1)
   {
     if (index % 15 == 0) {

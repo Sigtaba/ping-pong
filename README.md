@@ -14,6 +14,10 @@ Numbers divisible by 15 are replaced with "ping-pong"
 
 ## Specs
 
+- Input field only allows numbers to be entered
+  - Input: 2
+  - Output: 2
+
 - Detects any values in the output field and removes them so next person can play
   - Input: 1, 2, 3
   - Output:
@@ -33,9 +37,6 @@ Numbers divisible by 15 are replaced with "ping-pong"
 - Detects numbers divisible by 5 and replaces with "pong"
   - Input: 1,2,3,4,5
   - Output: 1,2,ping,4,pong
-
-
-
 
 ## Setup/Installation Requirements
 
