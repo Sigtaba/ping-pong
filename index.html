@@ -16,26 +16,26 @@
     <div class="container">
       <h1 class="jumbotron">The Ping-Pong Game!</h1>
       <div class="row">
-        <div class="col-md-7">
-          <span id="floatingbox">
-            <h2>Rules</h2>
-            <p>Ping-pong will count up to your number from 1 with the following exceptions:</p>
-            <ol>
-              <li>Numbers divisible by 3 are replaced with "ping"</li>
-              <li>Numbers divisible by 5 are replaced with "pong"</li>
-              <li>Numbers divisible by 15 are replaced with "ping-pong"</li>
-            </ol>
-            <form id="formOne">
-              <div class="form-group">
-                <input type="number" class="form-control" id="number" placeholder="Enter a number here!">
-              </div>
-              <button type="submit" class="btn btn-default">Play</button>
-            </form>
-          </span>
+        <div class="col-md-7 col-sm-12">
+          <h2>Rules</h2>
+          <p>Ping-pong will count up to your number from 1 with the following exceptions:</p>
+          <ol>
+            <li>Numbers divisible by 3 are replaced with "ping"</li>
+            <li>Numbers divisible by 5 are replaced with "pong"</li>
+            <li>Numbers divisible by 15 are replaced with "ping-pong"</li>
+          </ol>
+          <form id="formOne">
+            <div class="form-group">
+              <input type="number" class="form-control" id="number" placeholder="Enter a number here!">
+            </div>
+            <button type="submit" class="btn btn-default">Play</button>
+          </form>
         </div>
         <div class="col-md-5">
+          <div id="image">
+            <img src="img/spin.gif" alt="spinning ping pong paddle">
+          </div>
           <ul id="output">
-            <li>Results displayed here</li>
           </ul>
         </div>
       </div>

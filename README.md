@@ -14,25 +14,27 @@ Numbers divisible by 15 are replaced with "ping-pong"
 
 ## Specs
 
-- Detects any values in the output field and removes them
+- Detects any values in the output field and removes them so next person can play
   - Input: 1, 2, 3
   - Output:
 
-- Detects what userInput number is and begins counting up to that number
+- Detects what userInput number is and displays count up to that number
   - Input Example: 5
   - Output Example: 1,2,3,4,5
 
-  - Detects numbers divisible by 15 and replaces with "ping-pong"
-    - Input: 13,14,15,16,17
-    - Output: 13,14,ping-pong,16,17
+- Detects numbers divisible by 15 and replaces with "ping-pong"
+  - Input: 13,14,15,16,17
+  - Output: 13,14,ping-pong,16,17
 
 - Detects numbers divisible by 3 and replaces with "ping"
   - Input: 1,2,3,4,5
   - Output: 1,2,ping,4,5
 
-  - Detects numbers divisible by 5 and replaces with "pong"
-    - Input: 1,2,3,4,5
-    - Output: 1,2,ping,4,pong
+- Detects numbers divisible by 5 and replaces with "pong"
+  - Input: 1,2,3,4,5
+  - Output: 1,2,ping,4,pong
+
+
 
 
 ## Setup/Installation Requirements
