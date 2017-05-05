@@ -16,13 +16,14 @@ function pingPong(userInput) {
   return solution;
 }
 
-
 // Front End Logic //
+
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
     var userInput = parseInt($("#number").val());
     var result = pingPong(userInput);
+    $("#output li").remove();
     $("#output").append(result);
   });
 })
