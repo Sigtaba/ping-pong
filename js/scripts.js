@@ -5,11 +5,11 @@ function pingPong(userInput) {
   for (var index = 1; index <= userInput; index += 1)
   {
     if (index % 15 == 0) {
-      solution.push("<li>" + "ping-pong" + "</li>");
+      solution.push("<li>" + "<strong>" + "ping-pong" + "</strong>"  + "</li>");
     } else if (index % 3 == 0) {
-      solution.push("<li>" + "ping" + "</li>");
+      solution.push("<li>" + "<strong>" + "ping" + "</strong>"  + "</li>");
     } else if (index % 5 == 0) {
-      solution.push("<li>" + "pong" + "</li>");
+      solution.push("<li>" + "<strong>" + "pong" + "</strong>"  + "</li>");
     } else
       solution.push("<li>" + index + "</li>");
   };
